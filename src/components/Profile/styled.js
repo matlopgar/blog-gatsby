@@ -27,7 +27,13 @@ export const ProfilePosition = styled.small`
   font-weight: 300;
 `
 
-export const ProfileDescription = styled.p`
+export const ProfileDescription = styled(Link)`
+  transition: color 0.5s;
+  &:hover {
+    color: #1fa1f2;
+  }
+  color: #8899a6;
+  text-decoration: none;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;

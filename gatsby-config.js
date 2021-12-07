@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
     position: `Frontend Developer`,
-    description: `developer at @avenuecode`,
+    description: `@avenuecode`,
     author: `@matheusgarcia`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
