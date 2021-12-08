@@ -22,3 +22,13 @@ export const SidebarWrapper = styled.aside`
   justify-content: space-between;
   `}
 `
+
+export const SocialWrapp = styled.div`
+align-items: center;
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+${media.lessThan("large")`
+display: none;
+`}
+`

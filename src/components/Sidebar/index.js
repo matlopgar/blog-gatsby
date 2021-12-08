@@ -7,8 +7,12 @@ import MenuLinks from "../MenuLinks";
 const Sidebar = () => (
     <S.SidebarWrapper>
         <Profile />
+        <S.SocialWrapp>
         <SocialLinks />
+        </S.SocialWrapp>
+        
         <MenuLinks />
+        
     </S.SidebarWrapper>
 )
 

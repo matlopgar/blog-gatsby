@@ -3,9 +3,13 @@ import Layout from "../components/Layout"
 import Seo from "../components/seo"
 import styled from "styled-components"
 import SocialLinks from "../components/SocialLinks"
+import media from "styled-media-query"
 
 const AboutWrapper = styled.nav`
   padding: 3.5rem 5rem 0;
+  ${media.lessThan("small")`
+  padding: 1.4rem 0.6rem 0 0;
+`}
 `
 const Title = styled.h1`
   font-size: 3rem;
@@ -13,6 +17,9 @@ const Title = styled.h1`
   padding: 0 1.4rem;
   margin: 1.5rem auto;
   color: var(--texts);
+  ${media.lessThan("small")`
+  font-size: 1.8rem;
+`}
 `
 const Description = styled.p`
   margin-top: 3rem;  

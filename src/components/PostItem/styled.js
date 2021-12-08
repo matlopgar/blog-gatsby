@@ -10,10 +10,12 @@ export const PostItemLink = styled(Link)`
     color: var(--highlight);
   }
 
+  &:first-child{
+    padding: 1.5rem 0 0 0
+  }
   ${media.lessThan("large")`
   align-items: flex-start;
   flex-direction: column;
-  padding: 1.5rem 0 1.5rem 0;
   overflow: hidden;
 `}
 `
