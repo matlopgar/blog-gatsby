@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
+import media from "styled-media-query"
 
 export const PostItemLink = styled(Link)`
   color: var(--texts);
@@ -8,6 +9,13 @@ export const PostItemLink = styled(Link)`
   &:hover {
     color: var(--highlight);
   }
+
+  ${media.lessThan("large")`
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1.5rem 0 1.5rem 0;
+  overflow: hidden;
+`}
 `
 
 export const PostItemWrapper = styled.section`
@@ -30,6 +38,16 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
   text-transform: uppercase;
+
+  ${media.lessThan("large")`
+  border-radius: 0;
+  font-size: 1rem;
+  min-height: auto;
+  min-width: auto;
+  padding: .2rem .5rem;
+  margin: 0;
+`}
+
 `
 
 export const PostItemInfo = styled.div`

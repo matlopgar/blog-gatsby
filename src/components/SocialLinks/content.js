@@ -6,11 +6,11 @@ const links = [
 
     {
         label: 'Twitter',
-        url: 'https://twitter.com/matheusgarcia'
+        url: 'https://twitter.com/'
     },
     {
         label: 'Linkedin',
-        url: 'https://linkedin.com/matheuslopesgarcia'
+        url: 'https://www.linkedin.com/in/matheuslopesgarcia/'
     }
 ]
 

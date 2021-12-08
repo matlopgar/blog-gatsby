@@ -8,8 +8,12 @@ const links = [
       url: "/about/",
     },
     {
-       label: "Chess",
-       url: "/chess/"
+       label: "Blog",
+       url: "/blog/"
+    },
+    {
+      label: "Arts",
+      url: "/arts/"
     }
   ]
   
