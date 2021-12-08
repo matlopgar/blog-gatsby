@@ -4,6 +4,11 @@ import media from "styled-media-query"
 
 export const MenuLinksWrapper = styled.nav`
 display: flex;
+${media.lessThan("large")`
+margin-right: 50px;    
+    `}
+    
+
 
 `
 
@@ -14,6 +19,10 @@ export const MenuLinksList = styled.ul`
     display: flex;
     
     `}
+    ${media.lessThan("small")`
+    display: none;  
+        `}
+
 `
 
 export const MenuLinksItem = styled.li`
@@ -22,7 +31,7 @@ export const MenuLinksItem = styled.li`
     color: var(--highlight);
   }
   ${media.lessThan("large")`
-    margin: 20px;
+    margin: 0 10px 0 10px;
     
     `}
 `

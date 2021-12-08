@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react"
 
-import { Home } from '@styled-icons/boxicons-solid/Home'
-import { SearchAlt2 as Search } from '@styled-icons/boxicons-regular/SearchAlt2'
-import { Bulb as Light } from '@styled-icons/boxicons-regular/Bulb'
+import { Home } from '@styled-icons/material/Home'
+import { Search } from '@styled-icons/material/Search'
+import { Lightbulb as Light } from '@styled-icons/material/Lightbulb'
+import { Question } from '@styled-icons/remix-line/Question' 
 
 
 import * as S from "./styled"
@@ -21,6 +22,11 @@ const MenuBar = () => {
       <S.MenuBarLink to="/" title="Home">
         <S.MenuBarItem>
           <Home />
+        </S.MenuBarItem>
+      </S.MenuBarLink>
+      <S.MenuBarLink to="/about/" title="About">
+        <S.MenuBarItem>
+          <Question />
         </S.MenuBarItem>
       </S.MenuBarLink>
       <S.MenuBarLink to="/search/" title="Search">
