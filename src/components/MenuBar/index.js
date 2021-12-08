@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react"
-
 import { Home } from '@styled-icons/material/Home'
-import { Search } from '@styled-icons/material/Search'
 import { Lightbulb as Light } from '@styled-icons/material/Lightbulb'
 import { Question } from '@styled-icons/remix-line/Question' 
+import { Heart } from "@styled-icons/ionicons-outline/Heart"
 
 
 import * as S from "./styled"
@@ -29,9 +28,12 @@ const MenuBar = () => {
           <Question />
         </S.MenuBarItem>
       </S.MenuBarLink>
-      <S.MenuBarLink to="/search/" title="Search">
+      <S.MenuBarLink href="https://www.pixilart.com/matheusgarcia"
+              title="Art"
+              target="_blank"
+              rel="noopener noreferrer">
         <S.MenuBarItem>
-          <Search />
+          <Heart />
         </S.MenuBarItem>
       </S.MenuBarLink>
       <S.MenuBarItem title="Theme" onClick={() => {

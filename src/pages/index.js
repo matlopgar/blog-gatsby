@@ -8,10 +8,10 @@ const IndexPage = () => (
     <Seo title="Home" />
     <PostItem 
       slug="/about/"
-      background="#000000"
-      category="Dog"
-      date="7 Dec 2020"
-      timeToRead="5"
+      background="#9FA2B2"
+      category="NGRX"
+      date="26 Nov 2021"
+      timeToRead="10"
       title="Demystify NgRx"
       description="Angular state manager is not rocket science"
     />

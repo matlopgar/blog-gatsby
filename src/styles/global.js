@@ -53,11 +53,11 @@ table {
 }
 body.dark {
 	--borders: #38444d;
-	--texts: #8899a6;
+	--texts: #DFE0E2;
 	--postColor: #fff;
-	--highlight: #1fa1f2;
-	--mediumBackground: #192734;
-	--background: #16202c;
+	--highlight: #FFC857;
+	--mediumBackground: #151E29;
+	--background: #000A14;
 	--white: #fff;
 	--black: #222;
 }
@@ -66,7 +66,7 @@ body.light {
 	--borders: #dedede;
 	--texts: #555555;
 	--postColor: #111;
-	--highlight: #1fa1f2;
+	--highlight: #2EBFA5;
 	--mediumBackground: #f0f0f3;
 	--background: #fff;
 	--white: #fff;

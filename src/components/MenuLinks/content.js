@@ -7,14 +7,6 @@ const links = [
       label: "About",
       url: "/about/",
     },
-    {
-       label: "Blog",
-       url: "/blog/"
-    },
-    {
-      label: "Arts",
-      url: "/arts/"
-    }
   ]
   
   export default links
