@@ -12,7 +12,7 @@ const BlogPost = ({ data }) => {
       <Seo title={post.frontmatter.title}></Seo>
       <S.PostHeader>
         <S.PostDate>
-          {post.frontmatter.date} • {post.timeToRead} min de leitura
+          {post.frontmatter.date} • {post.timeToRead} min read
         </S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>

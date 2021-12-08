@@ -23,13 +23,13 @@ const Profile = () => {
 
   return (
     <S.ProfileWrapper>
-      <S.ProfileLink>
+      <S.ProfileLink to="/">
         <Avatar />
         <S.ProfileAuthor>{author}</S.ProfileAuthor>
       </S.ProfileLink>
       
       <S.ProfilePosition>{position}</S.ProfilePosition>
-      <S.ProfileDescription>{description}</S.ProfileDescription>
+      <S.ProfileDescription href="https://www.avenuecode.com" target="_blank">{description}</S.ProfileDescription>
 
     </S.ProfileWrapper>
   )

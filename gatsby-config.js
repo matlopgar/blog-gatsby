@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Welcome`,
+    title: `M.Garcia`,
     position: `Frontend Developer`,
     description: `@avenuecode`,
     author: `@matheusgarcia`,
@@ -27,7 +27,22 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [],
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options:{
+              name: "uploads"
+            },
+          },
+          {
+            resolve:"gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false
+            },
+          },
+          `gatsby-remark-lazy-load`
+        ],
       },
     },
     `gatsby-transformer-sharp`,
