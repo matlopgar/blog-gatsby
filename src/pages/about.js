@@ -43,7 +43,7 @@ const AboutPage = () => (
     <AboutWrapper>
       <Title>About Me</Title>
       <Description>
-      My name is Matheus Lopes Garcia, i'm born and raised in Belo Horizonte/MG-Brazil. Today working as Frontend Developer at <Link href="https://www/avenuecode.com">@avenuecode</Link>        
+      My name is Matheus Lopes Garcia, i'm born and raised in Belo Horizonte/MG-Brazil. Today working as Frontend Developer at <Link href="https://www.avenuecode.com" target="_blank">@avenuecode</Link>        
       </Description>
       <Description>
       Started my carreer as a Support IT Analyst at Recivil, a company which makes system for registry, joined the college to work with programming, then went for my first internship at Pris. After some time joined the tech financial company U4Crypto. In 27 January 2021 (Pandemic Times) joined Avenue Code as i'm here since then.      
